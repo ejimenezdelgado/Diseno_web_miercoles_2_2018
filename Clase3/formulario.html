@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<link href="estilo_formulario.css" rel="stylesheet" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,100,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+		<nav></nav>
+	</header>
+
+	<aside>
+		<nav></nav>
+	</aside>
+	<section>
+		<h1>Formularios</h1>
+		<form action="http://midominio.com/miservicioWeb.php" method="get">
+			<fieldset>
+				<legend>Datos de usuario</legend>
+				<label for="nombre">Nombre</label>
+				<input name="nombre" id="nombre" type="text" placeholder="escribe tu nombre" required autofocus />
+				<br />
+				<label for="apellidos">Apellido</label>
+				<input name="apellidos" id="apellidos" type="text" placeholder="primer apellido" />
+				<br />
+				<label for="edad">Edad</label>
+				<input name="edad" id="edad" type="number" />
+				<br />
+				<label for="clave">Contraseña</label>
+				<input name="clave" id="clave" type="password" />
+				<br />
+				<label for="mail">Email</label>
+				<input name="mail" id="mail" type="email" />
+				<input type="hidden" name="sitio" value="oculto" />
+				<br />
+				<label for="comentarios">Comentarios</label>
+				<textarea name="comentarios" id="comentarios">Aliquip te illum, an anim anim duis pariatur, ne cillum duis ut tempor, quorum .</textarea>
+				<br />
+				<input type="submit" value="Enviar form" />
+				<input type="reset" value="Borrar" />
+
+				<button type="submit">Enviar con button 
+            			<i class="fa fa-briefcase"></i> 
+            		</button
+	        	</fieldset>		
+	        </form>
+	    </section> 
+	    <section>
+	    	<article>
+            	<h2>Iframes</h2>
+            	<iframe id="la_nacion" src="http://www.nacion.com/"></iframe>
+        	</article>
+	    </section>
+	    <section>
+	        	<h1>Tablas y estructuras complejas</h1>
+	        	<article>
+	            	<h2>Tablas</h2>
+	            	<table>
+	                <thead>
+	                    <tr><th>cabecero 1</th>
+	                        <th>cabecero 2</th>
+	                        <th>cabecero 3</th>
+	                    </tr>
+	                </thead>
+	                <tbody>
+	                    <tr><td class="col1">elemento 11</td>
+	                        <td class="col2">elemento 12</td>
+	                        <td class="col3">elemento 13</td>
+	                    </tr>
+	                    <tr><td>elem. 21</td>
+	                        <td>elem. 22</td>
+	                        <td>elem. 23</td>
+	                    </tr>
+	                    <tr><td>elemento 31</td>
+	                        <td>elemento 32</td>
+	                        <td>elemento 33</td>
+	                    </tr>
+	                </tbody>	                
+	            	</table>
+	        	</article>
+			</section>
+			<section>
+				<ul>
+					<li><a href="http://www.google.es">Google</a></li>
+                	<li><a href="http://www.w3c.org">W3c</a></li>
+                	<li><a href="http://www.yahoo.es">Yahoo</a></li>
+                	<li><a href="https://translate.google.com">Translate</a></li>
+				</ul>
+   			</section>
+	</body>
+</html>
