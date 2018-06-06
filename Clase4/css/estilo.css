@@ -56,3 +56,68 @@ span:nth-child(2) {
 span:nth-child(3) {
     color: #F00;
 }
+
+#contenedor {
+    width: 80%;
+    min-width: 800px;
+    margin: 0px auto;
+}
+
+nav {
+    width: 100%;
+    overflow: auto;
+    font-weight: bold;
+    margin: 15px 0px;
+    background-color: rgb(255, 85, 70);
+}
+
+nav li {
+    float: left;
+    margin: 8px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+nav a:hover {
+    color: #FFF;
+}
+
+#menu {
+    width: 32%;
+    float: none;
+}
+
+aside {
+    width: 32%;
+    float: left
+}
+
+#img_principal {
+    width: 100%;
+    height: 400px;
+    background: url("../img/agustin3.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#img_principal+p {
+    background: rgb(70, 70, 70);
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.planes {
+    width: 32%;
+    height: 290px;
+    float: left;
+    background: #F00;
+    position: relative;
+}
