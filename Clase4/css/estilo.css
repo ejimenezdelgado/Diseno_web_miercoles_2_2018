@@ -167,3 +167,37 @@ section:nth-child(3) {
 .planes:nth-child(6) {
     background: url("../img/puri.jpg") no-repeat center center;
 }
+
+blockquote {
+    clear: both;
+    background: #FFF;
+    color: rgb(70, 70, 70);
+    font-style: italic;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    margin-bottom: 40px;
+}
+
+footer {
+    width: 100%;
+    padding: 30px 0%;
+    background: rgb(70, 70, 70);
+    overflow: auto;
+}
+
+footer div {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 800px;
+}
+
+footer img {
+    margin-right: 50px;
+    float: left;
+}
+
+footer p {
+    float: left;
+    padding-top: 12px;
+}

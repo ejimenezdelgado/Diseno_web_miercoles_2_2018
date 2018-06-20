@@ -2,13 +2,15 @@ body {
   background: #eeeeee;
   color: #222222;
 }
+
 @media screen and (min-width: 600px) and (max-height: 500px) {
   body {
     background: #222222;
   }
 }
 
-h1, p {
+h1,
+p {
   text-shadow: 0 -1px 1px rgba(238, 238, 238, 0.3);
 }
 
@@ -34,18 +36,22 @@ div {
     width: 80%;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .wrapper {
     width: 50%;
   }
 }
+
 @media screen and (min-width: 600px) and (max-height: 500px) {
   .wrapper {
     width: 90%;
   }
 }
 
-.main, .leftcol, .rightcol {
+.main,
+.leftcol,
+.rightcol {
   padding: 2%;
   margin-bottom: 10px;
 }
@@ -53,24 +59,28 @@ div {
 .main {
   background: #ff3333;
 }
+
 @media screen and (min-width: 600px) {
   .main {
     width: 68%;
     float: right;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .main {
     width: 46%;
     float: left;
   }
 }
+
 @media screen and (min-width: 600px) and (max-height: 500px) {
   .main {
     float: none;
     width: 52%;
   }
 }
+
 @media screen and (min-width: 1200px) and (max-height: 500px) {
   .main {
     width: 40%;
@@ -87,12 +97,14 @@ div {
     float: left;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .leftcol {
     width: 44%;
     float: right;
   }
 }
+
 @media screen and (min-width: 600px) and (max-height: 500px) {
   .leftcol {
     position: fixed;
@@ -102,6 +114,7 @@ div {
     float: none;
   }
 }
+
 @media screen and (min-width: 1200px) and (max-height: 500px) {
   .leftcol {
     width: 20%;
@@ -112,23 +125,27 @@ div {
 .rightcol {
   background: #33ff33;
 }
+
 @media screen and (min-width: 600px) {
   .rightcol {
     float: right;
     width: 68%;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .rightcol {
     width: 44%;
   }
 }
+
 @media screen and (min-width: 600px) and (max-height: 500px) {
   .rightcol {
     float: left;
     width: 52%;
   }
 }
+
 @media screen and (min-width: 1200px) and (max-height: 500px) {
   .rightcol {
     position: fixed;
