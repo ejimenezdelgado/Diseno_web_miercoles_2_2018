@@ -26,7 +26,7 @@
 		$("#send").click(function () {
 			var nombre = $("#nombre").val();
 			var password = $("#password").val();
-			$.post('http://localhost', {
+			$.post('http://172.24.121.173/login.php', {
 				nombrePHP: nombre,
 				passwordPHP: password
 			}, function (data) {

@@ -27,8 +27,8 @@
 			var nombre = $("#nombre").val();
 			var password = $("#password").val();
 			$.post('http://localhost:3000', {
-				nombrePHP: nombre,
-				passwordPHP: password
+				nombre: nombre,
+				password: password
 			}, function (data) {
 				$("#result").fadeIn('slow').html(data);
 			});

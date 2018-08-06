@@ -20,10 +20,10 @@ router.get('/', function (req, res) {
 });
 
 router.post('/', function (req, res) {
-    var nombre = req.param('nombre');
-    var password = req.param('password');
-    if ((nombre == "admin") && (password == "12345")) {
-        res.send("Bienvenido al sistema HACKERMAN");
+    var nombre = req.body.nombre;
+    var password = req.body.password;
+    if (nombre == 'admin' && password == '12345') {
+        res.send("Bienvenido al sistema " + "ISW 512");
     } else {
         res.send("Mejor vayasé por que soy HACKERMAN");
     }
